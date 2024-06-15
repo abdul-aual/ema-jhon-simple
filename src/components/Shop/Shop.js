@@ -11,7 +11,7 @@ const Shop = () => {
         fetch('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-simple-resources/master/fakeData/products.JSON')
         .then(res=>res.json())
         .then(data=>{
-            setData(data)
+            setData(data);
             
         })
     },[])
